@@ -1,4 +1,4 @@
-module CloseIssue
+module ClosedDateIssue
   class Hooks < Redmine::Hook::ViewListener
     def controller_issues_new_before_save(context)
       save_closed_date(context)
