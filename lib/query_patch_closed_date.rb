@@ -15,6 +15,7 @@ module IssueQueryPatch
     def available_filters_with_closed_date
       filters = available_filters_without_closed_date
       filters["closed_date"] = { :type => :date, :order => 7 } unless filters.include? "closed_date"
+      filters
     end
   end
 
