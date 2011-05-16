@@ -1,3 +1,14 @@
-= redmine_close_issue
+= Redmine Closed Issue
 
-A plugin that records the date when the issue is closed and shows it on the issue detail view
+A plugin that records the date when the issue is closed and shows it on the issue detail view and more
+
+= Version 0.0.1
+ - Record the date when an issue is closed
+ - Filter issues by the closed date
+ - Show the closed date on issue view
+ - Show the closed date as a column in issue list
+
+= Get the Stable Version
+ - Clone the project
+ - run git tag to see a list of available versions
+ - run git checkout v0.0.x, to the version choosed
