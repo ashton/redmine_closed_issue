@@ -8,6 +8,12 @@ A plugin that records the date when the issue is closed and shows it on the issu
  - Show the closed date on issue view
  - Show the closed date as a column in issue list
 
+= Version 0.0.2
+ - Added english translation
+ - Bulk edit bug fix
+ - Closed date is only changed on a status change, and if the status is a final status
+ - API request bug fix
+
 = Get the Stable Version
  - Clone the project
  - run git tag to see a list of available versions
